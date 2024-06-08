@@ -24,7 +24,7 @@ WHEN I click on a city in the search history, THEN I am again presented with cur
 ![Weather Dashboard Results](./Assets/img/Content-Dashboard.jpg)
 
 ## Deployed Application
-[Link to Deployed Application](https://anniebooth00.github.io/Weather-Dashboard/)
+[Link to Deployed Application](https://anniebooth00.github.io/CityClimateTracker/)
 
 ## Usage
 This application is ideal for anyone who needs to quickly find the weather conditions for multiple cities, including a detailed 5-day forecast.
