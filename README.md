@@ -20,8 +20,8 @@ WHEN I view future weather conditions for that city, THEN I am presented with a 
 WHEN I click on a city in the search history, THEN I am again presented with current and future conditions for that city.
 
 ## Screenshots
-[Weather Dashboard Home](./assets/img/Blank-Dashboard.jpg)
-[Weather Dashboard Results](./assets/img/Content-Dashboard.jpg)
+![Weather Dashboard Home](./assets/img/Blank-Dashboard.jpg)
+![Weather Dashboard Results](./assets/img/Content-Dashboard.jpg)
 
 ## Deployed Application
 [Link to Deployed Application](https://anniebooth00.github.io/Weather-Dashboard/)
