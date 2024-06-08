@@ -1,0 +1,146 @@
+/* Styling for the header */
+header{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #475089;
+    color: #FFFFFF;
+}
+
+/* Styling for input fields */
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* Styling for the h6 element */
+h6{
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Styling for links inside h6 element */
+h6 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Styling for links inside h6 element on hover */
+h6 a:hover{
+    text-decoration: underline;
+    color: #475089;
+}
+
+/* Styling for the searched city container */
+.searchedCity{
+    margin-top: 10px;
+    border-radius: 15px;
+    margin-left: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(160, 160, 160);
+    height: 550px;
+}
+
+/* Styling for h3 elements inside searched city container */
+.searchedCity h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the searched box container */
+.searchedBox{
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgb(160, 160, 160);
+    height: 550px;
+    text-align: left;
+}
+
+/* Styling for the five-day forecast container */
+.searchedCity .five-day {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start; /* Align all items to the top */
+    margin-top: 20px;
+}
+
+/* Styling for individual forecast cards */
+.forecast-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    display: inline-block;
+    width: 180px;
+    height: 230px;
+    box-sizing: border-box;
+}
+
+/* Styling for images inside forecast cards */
+.forecast-card img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Styling for h5 elements inside forecast cards */
+.forecast-card h5 {
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+/* Styling for paragraphs inside forecast cards */
+.forecast-card p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+/* Styling for search history items */
+.searchHistory div {
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Styling for search history items on hover */
+.searchHistory div:hover {
+    background-color: #eee;
+}
+
+/* Styling for the five-day forecast container */
+.five-day{
+    text-align: left;
+}
+
+/* Styling for the weather details container */
+#weatherDetails{
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+/* Styling for the search button */
+#searchButton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #475089;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 300px;
+    border: #475089;
+}
+
+/* Styling for the search button on hover */
+#searchButton:hover{
+    background-color: #3c436d;
+    color: rgb(133, 133, 133);
+}
